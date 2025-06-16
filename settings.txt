@@ -1,0 +1,24 @@
+outputDL1 = 0
+outputDL2 = 0
+outputDL3 = 0
+outputDL4 = 0
+outputDL5 = 0
+outputDL6 = 0
+outputDL7 = 0
+outputDL8 = 0
+
+outputReg1 = 0
+outputReg2 = 0
+outputReg3 = 0
+outputReg4 = 0
+
+
+
+To create Datalatches - 
+    output - DL - count peramiter
+
+To create Set Reset - 
+    ouptut - SR - count peramiter
+
+To create Register - 
+    output - Reg - count peramiter
