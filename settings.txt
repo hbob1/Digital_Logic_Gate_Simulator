@@ -1,5 +1,5 @@
-outputDL1 = 0
-outputDL2 = 0
+outputDL1 = 1
+outputDL2 = 1
 outputDL3 = 0
 outputDL4 = 0
 outputDL5 = 0
@@ -7,7 +7,7 @@ outputDL6 = 0
 outputDL7 = 0
 outputDL8 = 0
 
-outputReg1 = 0
+outputReg1 = 1
 outputReg2 = 0
 outputReg3 = 0
 outputReg4 = 0

@@ -57,6 +57,7 @@
         "string": "cpp",
         "cerrno": "cpp",
         "cfloat": "cpp",
-        "climits": "cpp"
+        "climits": "cpp",
+        "xtree": "cpp"
     }
 }
