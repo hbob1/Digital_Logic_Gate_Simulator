@@ -7,6 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-Isdl/include",
                 "${workspaceFolder}\\main.cpp",
                 "${workspaceFolder}\\components/andgate.cpp",
                 "${workspaceFolder}\\components/notgate.cpp",
@@ -26,6 +27,8 @@
                 "${workspaceFolder}\\components/mux.cpp",
                 "${workspaceFolder}\\components/tristatebuffer.cpp",
                 "${workspaceFolder}\\components/busbuffer.cpp",
+                "-Lsdl/lib",
+                "-lSDL3",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],

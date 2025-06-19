@@ -1,4 +1,5 @@
 #include "components/inclcomp.h"
+#include <SDL3/SDL.h>
 
 void loadInputsToALU(ALU* alu, int a, int b, bool subtract) {
 
@@ -15,7 +16,6 @@ void loadInputsToALU(ALU* alu, int a, int b, bool subtract) {
 
     alu->setInput(8, subtract);             
 }
-
 int outputFromALUToInt(ALU* alu) {
     int value = 0;
     for (int i = 0; i < 4; ++i) {
